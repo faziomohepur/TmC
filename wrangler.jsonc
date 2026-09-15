@@ -1,6 +1,27 @@
+
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "tmc",
-  "compatibility_date": "2026-09-10",
-  "pages_build_output_dir": "./dist"
+  "compatibility_date": "2026-09-11",
+  "assets": {
+    "directory": "./public/"
+  },
+  "routes": [
+    {
+      "pattern": "taxirachgia.tmc.io.vn",
+      "custom_domain": true
+    },
+	{
+      "pattern": "www.taxirachgia.tmc.io.vn",
+      "custom_domain": true
+    },
+	{
+      "pattern": "taxirachgialuxury.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.taxirachgialuxury.com",
+      "custom_domain": true
+    }
+  ]
 }
