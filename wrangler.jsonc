@@ -2,6 +2,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "tmc",
+  "main": "src/index.ts",
   "compatibility_date": "2026-09-11",
   "assets": {
     "directory": "./public/"
